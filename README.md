@@ -1,10 +1,12 @@
-Epictnr express helper
+Epictnr Express Helper 🔧
 ======
 
-Хелпер для работы с express.js
+Helper functions for [Express.js](http://expressjs.com/)
 
-### Для публикации пакета:
+*(the part of [micro-starter](https://github.com/epictnr/micro-starter-kit) framework)*
 
-```bash
-npm pub
+### How to publish:
+
+```console
+$ npm pub
 ```
