@@ -27,7 +27,7 @@ export function captureRawBody (req: RawBodyRequest, res: Response, buf: Buffer,
 }
 
 export function createErrorHandler (logger: Logger): ErrorRequestHandler {
-  return (error, req: RawBodyRequest, res: Response) => {
+  return (error, req: RawBodyRequest, res: Response, next: NextFunction) => {
     if (error.type === 'entity.parse.failed') {
       let rawBody = ''
 
